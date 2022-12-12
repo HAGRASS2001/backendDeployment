@@ -1,0 +1,18 @@
+post http://localhost:3000/BloodBag/InsertBloodBag
+Content-Type: application/json
+
+{
+        "hospital": "639648820872f731e6cc1395",
+        "bloodType" : "O" ,
+        "HBV" : "1",
+        "HCV" : "0",
+        "HIV" : "1",
+        "HTLV" : "0",
+        "syphilis" : "0" ,
+        "WNV" : "0",
+        "TrypanosmaCruzy" : "1" ,
+        "CMV" : "1",
+        "Babesia" : "1" ,
+        "BacterialContamination" : "0" ,
+        "pending" : "1"
+}

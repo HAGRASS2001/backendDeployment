@@ -1,0 +1,12 @@
+post http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+"username": "mohamed",
+"password": "mohamed",
+"email": "final@gmail.com",
+"phoneNumber": "1234567890",
+"name": "mohamed",
+"role" : "Donor",
+"bloodType": "A+"
+}
